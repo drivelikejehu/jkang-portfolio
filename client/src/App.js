@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Future home of stucco monstrosity
         </a>
       </header>
     </div>
