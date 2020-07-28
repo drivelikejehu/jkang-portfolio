@@ -59,18 +59,6 @@ function Navbar() {
         </div>
       </div>
     </nav>
-        <section className="hero is-primary is-medium-with-navbar has-text-light">
-        <div className="hero-body">
-          <div className="container">
-            <h1 className="title is-1">
-              John Kang
-            </h1>
-            <h2 className="subtitle is-3">
-              Full Stack Web Developer
-            </h2>
-          </div>
-        </div>
-      </section>
       </>
   );
 }
