@@ -50,12 +50,12 @@ function Navbar() {
               </span>
               <span>Portfolio</span>
             </a>
-            <a className="navbar-item" href="/contact">
+            {/* <a className="navbar-item" href="/contact">
               <span className="icon">
                 <i className="fas fa-envelope"></i>
               </span>
               <span>Contact</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>

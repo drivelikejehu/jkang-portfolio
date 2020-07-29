@@ -14,7 +14,7 @@ const About = () => {
                   <div className="card">
                     <div className="card-content">
                       <p className="title has-text-dark has-text-right">
-                        When I was a kid, I would make html websites for fun.
+                        As a kid, I would make html websites for fun.
                         Considering how much our lives relate to technology, I
                         want to be part of the future. So I can join the
                         expanding network of developers, who love what they do.
