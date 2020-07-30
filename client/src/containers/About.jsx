@@ -13,7 +13,7 @@ const About = () => {
                 <div className="column is-half">
                   <div className="card">
                     <div className="card-content">
-                      <p className="title has-text-dark has-text-justified">
+                      <p className="title is-size-3 has-text-dark has-text-justified">
                         As a kid, I would make websites for fun. Considering how
                         much our lives relate to technology, I want to be part
                         of the future. So I can join the expanding network of
