@@ -85,6 +85,7 @@ const About = () => {
                           <span className="tag is-light">jQuery</span>
                           <span className="tag is-light">Bootstrap</span>
                           <span className="tag is-light">JavaScript</span>
+                          <span className="tag is-light">React</span>
                         </div>
                       </div>
                     </div>
