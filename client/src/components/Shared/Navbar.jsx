@@ -50,12 +50,6 @@ function Navbar() {
               </span>
               <span>Portfolio</span>
             </a>
-            {/* <a className="navbar-item" href="/contact">
-              <span className="icon">
-                <i className="fas fa-envelope"></i>
-              </span>
-              <span>Contact</span>
-            </a> */}
           </div>
         </div>
       </nav>
@@ -63,7 +57,7 @@ function Navbar() {
         <div className="hero-body">
           <div className="container">
             <div className="title is-1">John Kang</div>
-            <div className="subtitle is-3">Full Stack Web Developer</div>
+            <div className="subtitle is-3">Front-End Web Developer</div>
           </div>
         </div>
       </section>

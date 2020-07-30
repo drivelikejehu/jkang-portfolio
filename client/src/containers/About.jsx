@@ -1,5 +1,5 @@
 import React from "react";
-import john from "../images/jkangbw.jpg";
+import jkangbw from "../images/jkangbw.jpg";
 
 const About = () => {
   return (
@@ -8,44 +8,74 @@ const About = () => {
         <div className="hero-body">
           <div className="container">
             <div className="row">
-              <div className="columns">
+              <div className="columns is-mobile is-centered">
                 <div className="column"></div>
                 <div className="column is-half">
                   <div className="card">
                     <div className="card-content">
                       <p className="title has-text-dark has-text-right">
-                        As a kid, I would make html websites for fun.
-                        Considering how much our lives relate to technology, I
-                        want to be part of the future. So I can join the
-                        expanding network of developers, who love what they do.
+                        As a kid, I would make websites for fun. Considering how
+                        much our lives relate to technology, I want to be part
+                        of the future. So I can join the expanding network of
+                        developers, who love what they do.
                       </p>
+                      <div className="card-content">
+                        <div className="media">
+                          <div className="media-left">
+                            <figure className="image is-128x128">
+                              <img
+                                src={jkangbw}
+                                alt="John Kang black and white"
+                              />
+                            </figure>
+                          </div>
+                          <div className="media-content has-text-centered">
+                            <p className="title is-3 has-text-dark">
+                              John Kang
+                            </p>
+                            <p className="subtitle is-5 has-text-dark">
+                              Atlanta, Georgia
+                            </p>
+                            <i
+                              class="fa fa-phone-square"
+                              aria-hidden="true"
+                            ></i>
+                            <span> 678-616-1566</span>
+                            <p>Email: pollyfactor@hotmail.com</p>
+                            <p>
+                              Github:{" "}
+                              <a
+                                href="https://github.com/drivelikejehu"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                github.com/drivelikejehu
+                              </a>
+                            </p>
+                            <p>
+                              LinkedIn:{" "}
+                              <a
+                                href=" https://www.linkedin.com/in/drivelikejehu"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                linkedin.com/in/drivelikejehu/
+                              </a>
+                            </p>
+
+                            {/* <span>
+                              <span className="tag is-light">Html</span>
+                              <span className="tag is-light">CSS</span>
+                              <span className="tag is-light">JavaScript</span>
+                              <span className="tag is-light">jQuery</span>
+                              <span className="tag is-light">Bootstrap</span>
+                              <span className="tag is-light">JavaScript</span>
+                            </span> */}
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <footer className="card-footer">
-                      <p className="card-footer-item">
-                        <span>
-                          View on{" "}
-                          <a href="https://twitter.com/codinghorror/status/506010907021828096">
-                            Twitter
-                          </a>
-                        </span>
-                      </p>
-                      <p className="card-footer-item">
-                        <span>
-                          Share on <a href="/#">Facebook</a>
-                        </span>
-                      </p>
-                    </footer>
-                  </div>
-                </div>
-                <div className="column"></div>
-                <div className="column is-one-third">
-                  <div className="card">
-                    <div className="card-image">
-                      <figure className="image is-42x42">
-                        <img src={john} alt="John Kang black and white" />
-                      </figure>
-                    </div>
-                    <div className="card-content"></div>
+                    {/* <div className="card-content"></div> */}
                   </div>
                 </div>
                 <div className="column"></div>
