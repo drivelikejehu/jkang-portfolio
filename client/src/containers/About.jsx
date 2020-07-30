@@ -17,7 +17,7 @@ const About = () => {
                         As a kid, I would make websites for fun. Considering how
                         much our lives relate to technology, I want to be part
                         of the future. So I can join the expanding network of
-                        developers, who love what they do.
+                        developers who love what they do.
                       </p>
                       <div className="card-content">
                         <div className="media">
