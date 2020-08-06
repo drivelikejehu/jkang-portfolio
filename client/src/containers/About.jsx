@@ -13,11 +13,16 @@ const About = () => {
                 <div className="column is-half">
                   <div className="card">
                     <div className="card-content">
-                      <p className="title is-size-3 has-text-dark has-text-centered">
-                        As a kid, I would make websites for fun. Considering how
-                        much our lives relate to technology, I want to be part
-                        of the future. So I can join the expanding network of
-                        developers, who love what they do.
+                      <p className="title is-size-4 has-text-dark has-text-centered">
+                        Hi, welcome to my Portfolio site. My name is John Kang,
+                        and I was born in Atlanta, Ga. I graduated from Georgia
+                        Tech's Full Stack Program in May 2020.
+                      </p>
+                      <p className="title is-size-4 has-text-dark has-text-centered">
+                        As a kid, I would make html websites for fun.
+                        Considering how much our lives relate to technology, I
+                        want to be part of the future, so we can develop for the
+                        world today.
                       </p>
                       <div className="card-content">
                         <div className="media">
@@ -39,18 +44,21 @@ const About = () => {
 
                             <p>
                               <i
-                                class="fa fa-phone-square"
+                                className="fa fa-phone-square"
                                 aria-hidden="true"
                               ></i>
                               <span> 678-616-1566</span>
                             </p>
                             <p>
-                              <i class="fa fa-envelope" aria-hidden="true"></i>
+                              <i
+                                className="fa fa-envelope"
+                                aria-hidden="true"
+                              ></i>
                               <span> pollyfactor@hotmail.com</span>
                             </p>
 
                             <p>
-                              <i class="fab fa-github-square"></i>
+                              <i className="fab fa-github-square"></i>
                               <span>
                                 <a
                                   href="https://github.com/drivelikejehu"
@@ -64,7 +72,7 @@ const About = () => {
                             </p>
 
                             <p>
-                              <i class="fab fa-linkedin"></i>
+                              <i className="fab fa-linkedin"></i>
                               <span>
                                 <a
                                   href=" https://www.linkedin.com/in/drivelikejehu"
@@ -85,6 +93,7 @@ const About = () => {
                           <span className="tag is-light">jQuery</span>
                           <span className="tag is-light">Bootstrap</span>
                           <span className="tag is-light">JavaScript</span>
+                          <span className="tag is-light">Bulma</span>
                           <span className="tag is-light">React</span>
                         </div>
                       </div>

@@ -1,7 +1,8 @@
 import React from "react";
-import burger from "../images/burger.png";
+import employee from "../images/employeedir.png";
 import poke from "../images/poke.png";
 import supnsip from "../images/supnsip.png";
+import burger from "../images/burger.png";
 
 const Portfolio = () => {
   return (
@@ -10,7 +11,7 @@ const Portfolio = () => {
         <div className="hero-body">
           <div className="container">
             <div className="row">
-              <div className="title is-2">Portfolio</div>
+              {/* <div className="title is-2">Portfolio</div> */}
               <div className="columns">
                 <div className="column is-one-third">
                   <div className="card">
@@ -52,7 +53,7 @@ const Portfolio = () => {
                       </p>
                     </header>
                     <div className="card-image">
-                    <figure className="image is-3by2">
+                      <figure className="image is-3by2">
                         <img src={poke} alt="PokeBattle" />
                       </figure>
                     </div>
@@ -84,7 +85,7 @@ const Portfolio = () => {
                       </p>
                     </header>
                     <div className="card-image">
-                    <figure className="image is-3by2">
+                      <figure className="image is-3by2">
                         <img src={supnsip} alt="dinner and drink app" />
                       </figure>
                     </div>

@@ -12,9 +12,9 @@ const Resume = () => {
                 <div className="column"></div>
                 <div className="column is-two-thirds has-text-centered">
                   <div className="title is-2">Resume</div>
-                  <div className="subtitle is-5">Forever a work in progress</div>
+                  <div className="subtitle is-5">An exercise in progress</div>
                   <a
-                    href="https://docs.google.com/document/d/1aOl0OwNl-t7u9c6vaVp8fgHrSofBXTo3wTYHEODdIpQ/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/e/2PACX-1vS-pq1GE6Rb8fUS43tQ2hrVCHt8mYjzwcPZ6t8ADS2l5JuFuCmeOwSbP2KlBCMCspx9oNlCLwY0SR4t/pub"
                     className="button is-link is-medium"
                     target="_blank"
                     rel="noopener noreferrer"
