@@ -21,8 +21,8 @@ const About = () => {
                       <p className="title is-size-4 has-text-dark has-text-centered">
                         As a kid, I would make html websites for fun.
                         Considering how much our lives relate to technology, I
-                        want to be part of the future, so we can develop for the
-                        world today.
+                        want to be part of the now. So we can develop for the
+                        world tomorrow.
                       </p>
                       <div className="card-content">
                         <div className="media">

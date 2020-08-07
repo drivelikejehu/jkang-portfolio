@@ -11,9 +11,40 @@ const Portfolio = () => {
         <div className="hero-body">
           <div className="container">
             <div className="row">
-              {/* <div className="title is-2">Portfolio</div> */}
               <div className="columns">
-                <div className="column is-one-third">
+              <div className="column is-one-quarter">
+                  <div className="card">
+                    <header className="card-header">
+                      <p className="card-header-title">
+                        <span>Employee Directory</span>
+                      </p>
+                    </header>
+                    <div className="card-image">
+                      <figure className="image is-3by2">
+                        <img src={employee} alt="react employee directory" />
+                      </figure>
+                    </div>
+                    <footer className="card-footer">
+                      <a
+                        href="https://github.com/drivelikejehu/react-employee-directory"
+                        className="card-footer-item"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Github
+                      </a>
+                      <a
+                        href="https://radiant-island-45826.herokuapp.com/"
+                        className="card-footer-item"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Deployed
+                      </a>
+                    </footer>
+                  </div>
+                </div>
+                <div className="column is-one-quarter">
                   <div className="card">
                     <header className="card-header">
                       <p className="card-header-title">
@@ -45,7 +76,7 @@ const Portfolio = () => {
                     </footer>
                   </div>
                 </div>
-                <div className="column is-one-third">
+                <div className="column is-one-quarter">
                   <div className="card">
                     <header className="card-header">
                       <p className="card-header-title">
@@ -77,7 +108,7 @@ const Portfolio = () => {
                     </footer>
                   </div>
                 </div>
-                <div className="column is-one-third">
+                <div className="column is-one-quarter">
                   <div className="card">
                     <header className="card-header">
                       <p className="card-header-title">
