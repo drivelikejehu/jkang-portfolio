@@ -26,7 +26,7 @@ const Portfolio = () => {
                     </div>
                     <footer className="card-footer">
                       <a
-                        href="https://github.com/drivelikejehu/jkang-portfolio.git"
+                        href="https://github.com/drivelikejehu/employee-directory"
                         className="card-footer-item"
                         target="_blank"
                         rel="noopener noreferrer"
