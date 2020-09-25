@@ -17,7 +17,7 @@ const About = () => {
                         Welcome to my Portfolio site. I am full MERN stack
                         developer born and based out of Atlanta, Ga. My main
                         focus is in React.js with a MySql backend. As a kid I
-                        used to make html sites for fun. Now I like to
+                        used to make HTML sites for fun. Now I like to
                         maninpulate the DOM using lifecycle methods. This
                         portfolio is a currently evolving snapshot in my journey.{" "}
                       </p>
