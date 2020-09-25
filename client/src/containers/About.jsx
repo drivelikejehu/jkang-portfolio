@@ -52,7 +52,7 @@ const About = () => {
                                 className="fa fa-envelope"
                                 aria-hidden="true"
                               ></i>
-                              <span> pollyfactor@hotmail.com</span>
+                              <span> JohnKangDev@outlook.com</span>
                             </p>
 
                             <p>
