@@ -14,16 +14,14 @@ const About = () => {
                   <div className="card">
                     <div className="card-content">
                       <p className="title is-size-4 has-text-dark has-text-centered">
-                        Hi, welcome to my Portfolio site. My name is John Kang,
-                        and I was born in Atlanta, Ga. I graduated from Georgia
-                        Tech's Full Stack Program in May 2020.
+                        Welcome to my Portfolio site. I am full MERN stack
+                        developer born and based out of Atlanta, Ga. My main
+                        focus is in React.js with a MySql backend. As a kid I
+                        used to make html sites for fun. Now I like to
+                        maninpulate the DOM using lifecycle methods. This
+                        portfolio is a currently evolving snapshot in my journey.{" "}
                       </p>
-                      <p className="title is-size-4 has-text-dark has-text-centered">
-                        As a kid, I would make html websites for fun.
-                        Considering how much our lives relate to technology, I
-                        want to be part of the now. So we can develop for the
-                        world tomorrow.
-                      </p>
+
                       <div className="card-content">
                         <div className="media">
                           <div className="media-left">
