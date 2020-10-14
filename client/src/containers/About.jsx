@@ -20,11 +20,14 @@ const About = () => {
                     <div className="card-content">
                       <p className="title is-size-4 has-text-dark has-text-centered">
                         Welcome to my Portfolio site. I am full MERN stack
-                        developer born and based out of Atlanta, Ga. My main
-                        focus is in React.js with a MySql backend. As a kid I
-                        used to make HTML sites for fun. Now I like to build
-                        MERN-stack application using React. This portfolio is a
-                        currently evolving snapshot in my journey.{" "}
+                        developer born and based out of Atlanta, Ga. I graduted
+                        from Kennesaw State University with a Bachelor of
+                        Science, and Georgia Tech with a Full Stack Flex Web
+                        Development certificate. My main focus is in React.js
+                        with a MySql backend. As a kid I used to make HTML sites
+                        for fun. Now I like to manipulate the DOM using React.
+                        This portfolio is a currently evolving snapshot in my
+                        journey.{" "}
                       </p>
                       <div className="card-content">
                         <div className="media">
