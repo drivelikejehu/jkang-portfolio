@@ -23,11 +23,10 @@ const About = () => {
                         developer born and based out of Atlanta, Ga. I graduted
                         from Kennesaw State University with a Bachelor of
                         Science, and Georgia Tech with a Full Stack Flex Web
-                        Development certificate. My main focus is in React.js
-                        with a MySql backend. As a kid I used to make HTML sites
-                        for fun. Now I like to manipulate the DOM using React.
-                        This portfolio is a currently evolving snapshot in my
-                        journey.{" "}
+                        Development certificate. As a kid I used to make HTML
+                        sites for fun. Now I like to manipulate the DOM using
+                        React with a MySql backend. This portfolio is a
+                        currently evolving snapshot in my journey.{" "}
                       </p>
                       <div className="card-content">
                         <div className="media">
