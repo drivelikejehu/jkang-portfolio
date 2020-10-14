@@ -1,5 +1,10 @@
 import React from "react";
+import "./About.css";
 import jkangbw from "../images/jkangbw.jpg";
+import bulma from "../images/bulma.png";
+import css from "../images/css.png";
+import jsx from "../images/jsx.png";
+import react from "../images/react.png";
 
 const About = () => {
   return (
@@ -17,11 +22,10 @@ const About = () => {
                         Welcome to my Portfolio site. I am full MERN stack
                         developer born and based out of Atlanta, Ga. My main
                         focus is in React.js with a MySql backend. As a kid I
-                        used to make HTML sites for fun. Now I like to
-                        maninpulate the DOM using lifecycle methods. This
-                        portfolio is a currently evolving snapshot in my journey.{" "}
+                        used to make HTML sites for fun. Now I like to build
+                        MERN-stack application using React. This portfolio is a
+                        currently evolving snapshot in my journey.{" "}
                       </p>
-
                       <div className="card-content">
                         <div className="media">
                           <div className="media-left">
@@ -84,7 +88,7 @@ const About = () => {
                             </p>
                           </div>
                         </div>
-                        <div className="card-footer-item">
+                        {/* <div className="card-footer-item">
                           <span className="tag is-light">Html</span>
                           <span className="tag is-light">CSS</span>
                           <span className="tag is-light">JavaScript</span>
@@ -93,6 +97,21 @@ const About = () => {
                           <span className="tag is-light">JavaScript</span>
                           <span className="tag is-light">Bulma</span>
                           <span className="tag is-light">React</span>
+                        </div> */}
+                        <div className="card-footer-item">
+                          Portfolio built with{" "}
+                          <img
+                            src={bulma}
+                            className="fontIcon"
+                            alt="bulma icon"
+                          />{" "}
+                          <img src={css} className="fontIcon" alt="css icon" />{" "}
+                          <img src={jsx} className="fontIcon" alt="jsx icon" />{" "}
+                          <img
+                            src={react}
+                            className="fontIcon"
+                            alt="react icon"
+                          />{" "}
                         </div>
                       </div>
                     </div>
